@@ -19,3 +19,20 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+-keepattributes Signature
+-keepattributes *Annotation*
+-keepattributes InnerClasses
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+-keep  class com.qiyuan.gamesdk.container.**{
+     public <methods>;
+     public <fields>;
+}
+-keep  class com.qiyuan.gamesdk.outer.model.**{*;}
+-keep  class com.qiyuan.gamesdk.outer.**{
+     public <methods>;
+     public <fields>;
+}
+-keep  class com.google.gson1.**{*;}

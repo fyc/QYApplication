@@ -39,7 +39,7 @@
             </intent-filter>
         </activity>
 
-        <service android:name="com.yiyou.gamesdk.container.FloatService" />
+        <service android:name="com.qiyuan.gamesdk.container.FloatService" />
     </application>
 
 </manifest>
