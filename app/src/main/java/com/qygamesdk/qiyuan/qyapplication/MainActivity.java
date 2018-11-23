@@ -113,7 +113,7 @@ public class MainActivity extends FragmentActivity {
         Long cliBuyerId = 19000L ;
         String cliSellerId = "2018111415564890400010102c2";
         String cpOrderNo = System.currentTimeMillis() + "";
-        String cpOrderTitle = "%E9%A6%96%E5%85%851";
+        String cpOrderTitle = "首充一";
         float cpPrice = 0.01f;
         QYGameSDK.getInstance().payH5(MainActivity.this, cliBuyerId, cliSellerId, cpOrderNo, cpOrderTitle, cpPrice);
     }
